@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.5.3)  21 NOV 2016 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.11)  8 DEC 2016 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **paper.tex
 (./paper.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 2 languages loaded.
+LaTeX2e <2016/02/01>
+Babel <3.9q> and hyphenation patterns for 5 language(s) loaded.
 (./IEEEtran.cls
 Document Class: IEEEtran 2014/09/17 V1.8a by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
@@ -113,22 +113,22 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \c@IEEEbiography=\count93
 \@IEEEtranrubishbin=\box27
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/01/03 v1.0q Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 95.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -231,75 +231,76 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 384.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 384.
+
 <towerofhanoi.png, id=1, 455.7025pt x 201.75375pt>
 File: towerofhanoi.png Graphic file (type png)
  <use towerofhanoi.png>
-Package pdftex.def Info: towerofhanoi.png used on input line 380.
+Package pdftex.def Info: towerofhanoi.png used on input line 389.
 (pdftex.def)             Requested size: 227.62817pt x 113.81252pt.
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./towerofhanoi.png (PNG copy)>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 390.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 390.
- <slidingpuzzle.jpg, id=10, 260.975pt x 194.7275pt>
+]
+<slidingpuzzle.jpg, id=14, 260.975pt x 194.7275pt>
 File: slidingpuzzle.jpg Graphic file (type jpg)
-
-<use slidingpuzzle.jpg>
-Package pdftex.def Info: slidingpuzzle.jpg used on input line 395.
+ <use slidingpuzzle.jpg>
+Package pdftex.def Info: slidingpuzzle.jpg used on input line 404.
 (pdftex.def)             Requested size: 227.62383pt x 113.80963pt.
- <BI_Pseudocode.png, id=11, 400.79738pt x 451.08525pt>
-File: BI_Pseudocode.png Graphic file (type png)
 
-<use BI_Pseudocode.png>
-Package pdftex.def Info: BI_Pseudocode.png used on input line 510.
+<BI_Pseudocode.png, id=15, 400.79738pt x 451.08525pt>
+File: BI_Pseudocode.png Graphic file (type png)
+ <use BI_Pseudocode.png>
+Package pdftex.def Info: BI_Pseudocode.png used on input line 519.
 (pdftex.def)             Requested size: 227.62514pt x 227.62073pt.
- [2 <./slidingpuzzle.jpg> <./BI_Pseudocode.png>]
+
+[2 <./towerofhanoi.png (PNG copy)> <./slidingpuzzle.jpg> <./BI_Pseudocode.png>]
 <uniform_cost.png, id=19, 798.985pt x 538.01pt>
 File: uniform_cost.png Graphic file (type png)
  <use uniform_cost.png>
-Package pdftex.def Info: uniform_cost.png used on input line 530.
+Package pdftex.def Info: uniform_cost.png used on input line 539.
 (pdftex.def)             Requested size: 227.62204pt x 153.26877pt.
-
-<hanoiNodes.jpg, id=20, 564.60938pt x 338.01282pt>
+ [3 <./uniform_cost.png (PNG copy)>] <hanoiNodes.jpg, id=26, 564.60938pt x 338.
+01282pt>
 File: hanoiNodes.jpg Graphic file (type jpg)
- <use hanoiNodes.jpg>
-Package pdftex.def Info: hanoiNodes.jpg used on input line 567.
+
+<use hanoiNodes.jpg>
+Package pdftex.def Info: hanoiNodes.jpg used on input line 576.
 (pdftex.def)             Requested size: 227.62204pt x 136.27036pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 569.
+(Font)              <8> on input line 578.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 569.
-
-<hanoiTime.jpg, id=21, 564.60938pt x 338.01282pt>
+(Font)              <6> on input line 578.
+ <hanoiTime.jpg, id=27, 564.60938pt x 338.01282pt>
 File: hanoiTime.jpg Graphic file (type jpg)
- <use hanoiTime.jpg>
-Package pdftex.def Info: hanoiTime.jpg used on input line 574.
+
+<use hanoiTime.jpg>
+Package pdftex.def Info: hanoiTime.jpg used on input line 583.
 (pdftex.def)             Requested size: 227.62204pt x 136.27036pt.
- [3 <./uniform_cost.png (PNG copy)>]
-<slidingNodes.jpg, id=28, 564.60938pt x 338.01282pt>
+ <slidingNodes.jpg, id=28, 564.60938pt x 338.01282pt>
 File: slidingNodes.jpg Graphic file (type jpg)
- <use slidingNodes.jpg>
-Package pdftex.def Info: slidingNodes.jpg used on input line 598.
-(pdftex.def)             Requested size: 227.62204pt x 136.27036pt.
 
-<slidingTime.jpg, id=29, 564.60938pt x 338.01282pt>
+<use slidingNodes.jpg>
+Package pdftex.def Info: slidingNodes.jpg used on input line 607.
+(pdftex.def)             Requested size: 227.62204pt x 136.27036pt.
+ <slidingTime.jpg, id=29, 564.60938pt x 338.01282pt>
 File: slidingTime.jpg Graphic file (type jpg)
- <use slidingTime.jpg>
-Package pdftex.def Info: slidingTime.jpg used on input line 605.
-(pdftex.def)             Requested size: 227.62204pt x 136.27036pt.
 
-[4 <./hanoiNodes.jpg> <./hanoiTime.jpg> <./slidingNodes.jpg> <./slidingTime.jpg
->] (./paper.bbl
+<use slidingTime.jpg>
+Package pdftex.def Info: slidingTime.jpg used on input line 614.
+(pdftex.def)             Requested size: 227.62204pt x 136.27036pt.
+ [4 <./hanoiNodes.jpg> <./hanoiTime.jpg> <./slidingNodes.jpg> <./slidingTime.jp
+g>] (./paper.bbl [5]
 ! Misplaced alignment tab character &.
 l.24 ...ional Journal of Artificial Intelligence &
                                                    Applications (IJAIA)}, Vo...
 
 ? 
-[5])
+)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -319,13 +320,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2337 strings out of 495028
- 38194 string characters out of 6181498
- 100662 words of memory out of 5000000
- 5531 multiletter control sequences out of 15000+600000
+ 2338 strings out of 494910
+ 38204 string characters out of 6179836
+ 101331 words of memory out of 5000000
+ 5614 multiletter control sequences out of 15000+600000
  35966 words of font info for 69 fonts, out of 8000000 for 9000
- 17 hyphenation exceptions out of 8191
- 37i,7n,23p,1153b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39 hyphenation exceptions out of 8191
+ 37i,7n,23p,1161b,234s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/
@@ -338,7 +339,7 @@ cm/cmsy5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 re/texlive/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on paper.pdf (6 pages, 845325 bytes).
+Output written on paper.pdf (6 pages, 845668 bytes).
 PDF statistics:
  80 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
