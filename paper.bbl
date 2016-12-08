@@ -1,0 +1,26 @@
+\begin{thebibliography}{1}
+
+\bibitem{Korf}
+R.~Korf
+\newblock Real-Time Heuristic Search: First Results.
+\newblock {\em Journal Artificial Intelligence, Volume 42 Issue 2-3}, pages 189-211, March 1990
+
+\bibitem{KandKh}
+H.~Kaindl.
+A.~Khorsand.
+\newblock Memory-Bounded Bidirectional Search
+\newblock {\em AAAI'94 Proceedings of the Twelfth AAAI National Conference on AI}, pages 1359-1364, 1994
+
+\bibitem{Kaindl}
+H.~Kaindl.
+G.~Kainz.
+\newblock Bidirectional Heuristic Search Reconsidered.
+\newblock {\em Journal of Artificial Intelligence Research}, pages 283--317, Dec 1997.
+
+\bibitem{Potdar}
+G.~Potdar.
+R.~Thool.
+\newblock Comparison of Various Heuristic Search Techniques For Finding Shortest Path
+\newblock {\em International Journal of Artificial Intelligence & Applications (IJAIA)}, Vol.5, No. 4, July 2014.
+
+\end{thebibliography}

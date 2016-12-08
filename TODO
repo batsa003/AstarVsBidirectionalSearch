@@ -1,0 +1,10 @@
+TODO:
+
+- Mention branching factors, depth, etc,. regarding the type of problem you're solving. And more general approach!!! Like how the problem is essentially a graph search problem.
+
+
+- Explain breadth first search, and how the order it traverses finds solution in terms of depth.
+- More clearer explanation of bidirectional breadth first search. From the very beginning, explain it.
+- One more paragraph about the theoretical comparison, prediction.
+- In analysis section, state the result, and explain what it could possibly mean, and summarize it in the section C.
+- In conclusion section, mention how theoretical analysis can be done using effective branching factor.
