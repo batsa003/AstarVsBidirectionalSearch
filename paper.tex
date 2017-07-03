@@ -327,7 +327,7 @@
 % not capitalized unless they are the first or last word of the title.
 % Linebreaks \\ can be used within to get better formatting as desired.
 % Do not put math or special symbols in the title.
-\title{Analyzing performance of A* and Bidirectional Search on well-defined problems}
+\title{Analyzing performance of A* and Bidirectional Bearch on well-defined problems}
 
 % author names and affiliations
 % use a multiple column layout for up to three different
@@ -344,7 +344,7 @@ Email: batsa003@umn.edu}
 % As a general rule, do not put math, special symbols or citations
 % in the abstract
 \begin{abstract}
-In this paper, I have analyzed and compared an A* search and a Bidirectional Search on the Tower of Hanoi and the Fifteen puzzle. This paper explores the time and memory differences of these two inherently different algorithms. The experiment consisted of test scenarios with increasing difficulty of the puzzles. In conclusion of the experiment, the A* search outperforms several times better than the bidirectional search on both of the puzzles. In addition, the bottleneck of these algorithms was memory usage, as the puzzles get bigger.
+In this paper, I have analyzed and compared an A* search and a Bidirectional Search on the Tower of Hanoi and the Fifteen puzzle. This paper explores the time and memory differences of these two algorithms. The experiment consisted of test scenarios with increasing difficulty of the puzzles. As a result of the experiment, the A* search outperforms several times better than the bidirectional search on both of the puzzles. In addition, the bottleneck of these algorithms was memory usage, as the puzzles get bigger.
 \end{abstract}
 
 % no keywords
@@ -366,23 +366,15 @@ In this paper, I have analyzed and compared an A* search and a Bidirectional Sea
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
 
-It is of a great interest to compare a heuristic search algorithms to a classical search algorithms. In a search problem, we are given a simple directed graph and the initial state. The objective of the search is to find a path to the goal state that satisfies certain conditions. The main goal of the heuristic algorithms is to make choices so that the unnecessary paths don't have to be explored, thus saving time and memory. This technique is an interesting challenge in Artificial Intelligence due to the difficulty of theoretical and experimental analysis of the heuristic algorithms in comparison with other classical algorithms, and the concept of a heuristic or guessing underlies the whole field of Artificial Intelligence. On the other hand, classical search algorithms work for any general graph, don't use any specific properties and characteristics of the graph, and therefore is non-heuristic. In this paper, I have analyzed and compared the A* heuristic search and the Bidirectional BFS. The objective of this experiment is to give an insight on efficiency, implementation, and limitations of A* search algorithm and the classical the Bidirectional Search.
+It is of a great interest to compare a heuristic search algorithms to a classical search algorithms. In a search problem, we are given a simple directed graph and the initial state. The objective of the search is to find a path to the goal state that satisfies certain conditions. The main goal of the heuristic algorithms is to make choices so that the bad paths don't have to be explored, thus saving time and memory. This technique is an interesting challenge in Artificial Intelligence due to the difficulty of theoretical and experimental analysis of these in comparison with other classical algorithms, and the concept of heuristic or guessing underlie the whole field of Artificial Intelligence. On the other hand, classical search algorithms work for any general graph, don't use any specific properties and characteristics of the graph, and therefore is non-heuristic. In this paper, I have analyzed and compared the A* heuristic search and the Bidirectional BFS. The objective of this experiment is to give an insight on efficiency, implementation, and limitations of A* search algorithm and the classical the Bidirectional Search.
 
-The A* algorithm is a heuristic graph-searching algorithm and is most widely known form of Best-First Search. It was introduced around 1968 by Peter Hart, Nils Nilson, and Bertram Raphael (TODO: Cite). Since that time, it has been applied successfully in many domains such as game AI, robotics, and graphs. In recent years, many applications and variations of the A* search is developed. For example, it is used for GPS applications for providing shortest path. Given a map, finding shortest distance between two given locations is difficult because there are many intermediate locations, places, and roads. With a heuristic knowledge that the optimal path somewhat looks like a straight line between these locations, the A* search uses heuristic function to search through nodes that seem to lie on a straight line from source to destination. A* is an extension of Dijkstra's algorithm for finding shortest path.
+Both of the algorithms are popular and known for their efficiency. The A* algorithm is a heuristic graph-searching algorithm and is most widely known form of Best-First Search. It was introduced around 1960's for finding shortest paths. Since that time, it has been applied successfully in many domains such as game AI, robotics, and graphs. On the other hand, the Bidirectional search is known for cutting the exponent of the complexity; thus, significantly improves the efficiency compared to simple search.
 
-Due to its heuristic property, A* search has an effective branching factor. 
-TODO:
-STUFF ABOUT EFFECTIVE BRANCHING FACTOR
-STUFF ABOUT EFFECTIVE BRANCHING FACTOR
-STUFF ABOUT EFFECTIVE BRANCHING FACTOR
-STUFF ABOUT EFFECTIVE BRANCHING FACTOR
-STUFF ABOUT EFFECTIVE BRANCHING FACTOR
-STUFF ABOUT EFFECTIVE BRANCHING FACTOR
-STUFF ABOUT EFFECTIVE BRANCHING FACTOR
+In recent years, many applications and variations of the A* search is developed. For example, it is used for GPS applications for providing shortest path. Given a map, finding shortest distance between two given locations is difficult because there are many intermediate locations, places, and roads. With a heuristic knowledge that the optimal path somewhat looks like a straight line between these locations, the A* search uses heuristic function to search through nodes that seem to lie on a straight line from source to destination.
 
-The Bidirectional search is known for its robustness for finding shortest distance between two nodes. Unlike the A* search, which is a unidirectional algorithm, the Bidirectional search takes advantage of the known goal nodes by searching backward from the goal node. It is known that the complexity of the algorithm is $O(b^{d/2})$ because simple BFS gives $O(b^d)$ and having two searches cuts the depth in half to gives $O(b^{d/2})$. Efficient use of memory crucial for the bidirectional search algorithm's performance because the two search from both nodes will have to meet at some point, and they have to keep track of the nodes visited and actions taken from the previous node, doubling the space of two unidirectional search.
+The Bidirectional search is known for its robustness for finding shortest distance between two nodes. Unlike the A* search, which is a unidirectional algorithm, the Bidirectional search takes advantage of the known goal nodes by searching backward from the goal node. Efficient use of memory crucial for the bidirectional search algorithm's performance because the two search from both nodes will have to meet at some point, and they have to keep track of the nodes visited and actions taken from the previous node, doubling the space of two unidirectional search.
 
-In this experiment, I focused on finding the complete solution of the puzzle which means that we have to determine full path from the start state to the goal state. Kaindl and Khorsand constructed very efficient memory-bounded bidirectional search that could be used for finding near-optimal solutions. They also showed that bidirectional approach rather than the unidirectional approach is better. \cite{KandKh} However, in this paper, we will only consider the problem of finding the complete solution of the puzzles because it could be very complex task to define the "closeness" to the goal state and doing analysis on it.
+In this experiment, we will focus on finding the complete solution of the puzzle. Kaindl and Khorsand constructed very efficient memory-bounded bidirectional search that could be used for finding near-optimal solutions. They also showed that bidirectional approach rather than the unidirectional approach is better. \cite{KandKh} However, in this paper, we will only consider the problem of finding the complete solution of the puzzles because it could be very complex task to define the "closeness" to the goal state and doing analysis on it.
 
 \begin{figure}[!t]
 \includegraphics[width=8cm, height=4cm]{towerofhanoi}
@@ -390,8 +382,6 @@ In this experiment, I focused on finding the complete solution of the puzzle whi
 \caption{Initial state of the Tower of Hanoi with 3 pegs and 5 disks.}
 %\label{fig_sim}
 \end{figure}
-
-The Tower of Hanoi and Sliding Puzzles can be represented as a graph path-finding problem so that search algorithms could be applied. We can represent each state of the puzzle as a node, and each action at a given state represents the outgoing edges from a node. Our goal is to find a list of actions to reach the goal state of the puzzle, which is equivalent to finding path to the goal node. In this experiment, we represent the graph as a tree with branching represents the outgoing edges of the puzzle. Detailed analysis of branching factor and solution depth is provided in Experimental Methods section.
 
 The Tower of Hanoi consists of a number of pegs and a number of disks with different sizes. In this experiment, we only consider a Tower of Hanoi with 3 pegs. Initially, all of the disks are on the first peg in ascending order of size, the largest at the bottom. The objective of the puzzle is to move all of the disks into the last peg. At each turn, we can pick up upper disk from one of the peg and placing it on top of another peg, and the disk we picked must be smaller than the top disk of the destination stack (unless the destination stack is empty). Figure 1 shows an example of the Tower of Hanoi.
 
